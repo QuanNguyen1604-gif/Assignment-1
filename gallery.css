@@ -1,0 +1,25 @@
+/* GALLERY PAGE */
+.gallery {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.gallery-grid figcaption {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #555;
+}

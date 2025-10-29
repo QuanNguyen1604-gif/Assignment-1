@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bakushin O</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="tex_support_card_30015.png">
+    </head>
+    <body>
+    <!-- HEADER -->
+    <header>
+        <h1>Bakushin O</h1>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Events.html">Events</a>
+        <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="contact">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Fill in the form below for booking or ask a question.</p>
+        <p>Hotline: 0986594972</p>
+
+        <!-- Reservation Form -->
+        <form>
+            <fieldset>
+            <legend>Reservation Form</legend>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="0123-456-789" required><br><br>
+
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="time">Time:</label><br>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <label for="guests">Number of Guests:</label><br>
+            <input type="number" id="guests" name="guests" min="1" max="10" required><br><br>
+
+            <label for="food">Favorite Dish:</label><br>
+            <select id="food" name="food">
+                <option value="sushi">Sushi</option>
+                <option value="ramen">Ramen</option>
+                <option value="tempura">Tempura</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="message">Special Requests:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40" placeholder="Write here..."></textarea><br><br>
+
+            <label>
+                <input type="checkbox" name="newsletter">
+                Subscribe to our newsletter
+            </label><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+        </section>
+
+        <!-- LOCATION MAP -->
+        <section class="map">
+        <h2>Find Us Here</h2>
+        <p>118 Nguyen Dinh Chieu</p>
+
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.28700308858!2d106.70059069999999!3d10.7893165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3469c65d61%3A0xca303fa4b06e58a0!2zTmjDoCBow6BuZyBo4bqnbSByxrDhu6N1IFZhbmcgVml2aW5zIFdpbmUgQ2x1YiBRdeG6rW4gMDE!5e0!3m2!1sen!2s!4v1761733049329!5m2!1sen!2s"
+            width="400"
+            height="250"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Bakushin O Restaurant | Designed for Web Application Development Lab</p>
+    </footer>
+    </body>
+    </html>

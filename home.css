@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fffaf0;
+  color: #333;
+}
+
+/* HEADER & NAV */
+header {
+  background-color: #b22222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* HERO SECTION */
+.start {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.start img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.start-text {
+  margin-top: 15px;
+}
+
+/* INTRO SECTION */
+.intro {
+  text-align: center;
+  padding: 20px;
+}
+
+.intro h3 {
+  color: #b22222;
+}
+
+/* FOOTER */
+footer {
+  background-color: #b22222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
